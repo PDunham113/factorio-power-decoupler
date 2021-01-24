@@ -1,30 +1,23 @@
-data:extend(
-{
-    {
+data:extend({{
     type = "technology",
-    name = "electric-energy-power-decoupler-1",
+    name = "electric-energy-power-decoupler",
     icon_size = 128,
     icon = "__power-decoupler__/graphics/technology/fast-accu-tech.png",
-    localised_name = {"technology-name.electric-energy-power-decoupler-1"},
-    effects =
-    {
-      {
-        type = "unlock-recipe",
-        recipe = "power-decoupler"
-      }
+    localised_name = {"technology-name.electric-energy-power-decoupler"},
+    effects = {
+        {
+            type = "unlock-recipe",
+            recipe = "power-decoupler"
+        }
     },
-    prerequisites = {"electric-energy-accumulators-1"},
-    unit =
-    {
+    prerequisites = {"electric-energy-accumulators"},
+    unit = {
       count = 300,
-      ingredients =
-      {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1},
-        {"science-pack-3", 1}
+      ingredients = {
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
+        {"utility-science-pack", 1}
       },
       time = 30
-    },
-    order = "c-e-a"
     }
-})
+}})
