@@ -1,4 +1,4 @@
-data.extend({{
+data:extend({{
     type = "accumulator",
     name = "power-decoupler",
     icon = "__power-decoupler__/graphics/entity/icon/fast-accu.png",
