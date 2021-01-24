@@ -14,7 +14,7 @@ data.extend({{
         type = "electric",
         render_no_power_icon = false,
         render_no_network_icon = true,
-        buffer_capacity = "1kJ",
+        buffer_capacity = "50kJ",
         usage_priority = "tertiary",
         input_flow_limit = "2.5MW",
         output_flow_limit = "2.5MW"
