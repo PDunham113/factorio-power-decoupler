@@ -4,7 +4,7 @@ networks
 
 ## Overview
 This mod adds an accumulator with significantly increased charge/discharge speed
-(2.5 MW default) and significantly decreased capacity (1 kJ default). The intent
+(2.5 MW default) and significantly decreased capacity (50 kJ default). The intent
 is to allow for more compact accumulator-isolation of less critical factory
 sectors (see [wiki][]).
 
