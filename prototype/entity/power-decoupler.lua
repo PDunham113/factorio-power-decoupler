@@ -1,4 +1,4 @@
-data.extend({
+data.extend({{
     type = "accumulator",
     name = "power-decoupler",
     icon = "__power-decoupler__/graphics/entity/icon/fast-accu.png",
@@ -79,4 +79,4 @@ data.extend({
     circuit_connector_sprites = circuit_connector_definitions["accumulator"].sprites,
     circuit_wire_max_distance = default_circuit_wire_max_distance,
     default_output_signal = {type = "virtual", name = "signal-A"}
-})
+}})
