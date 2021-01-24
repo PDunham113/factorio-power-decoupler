@@ -1,0 +1,11 @@
+{
+    "name": "power-decoupler",
+    "version", "0.1.0",
+    "title", "Power Decoupler",
+    "author": "pdunham113",
+    "factorio_version": 1.0,
+    "dependencies": [
+        "base >= 1.0"
+    ],
+    "description": "This mod adds high-discharge accumulators for decoupling power networks."
+}
