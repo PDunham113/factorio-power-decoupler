@@ -6,7 +6,7 @@ data:extend({{
     ingredients = {
         {"accumulator", 1},
         {"iron-plate", 5},
-        {"processing-unit", 2},
+        {"advanced-circuit", 2},
         {"battery", 5}
     },
     result = "power-decoupler"
