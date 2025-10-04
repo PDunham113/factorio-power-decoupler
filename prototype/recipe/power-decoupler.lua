@@ -9,5 +9,7 @@ data:extend({{
         {type = "item", name = "advanced-circuit", amount = 2},
         {type = "item", name = "battery", amount = 5}
     },
-    result = "power-decoupler"
+    results = {
+        {type = "item", name = "power-decoupler",  amount = 1}
+    }
 }})
